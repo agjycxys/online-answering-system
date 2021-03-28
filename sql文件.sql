@@ -28,8 +28,8 @@ CREATE TABLE  timu (
 /*创建关系表tiku_timu 主键为tkid+tmid */
 DROP TABLE IF EXISTS tiku_timu;
 CREATE TABLE tiku_timu(
-   tkid INT(11) DEFAULT NULL,
-   tmid INT(11) DEFAULT NULL,
+   tkid INT(11),
+   tmid INT(11),
    PRIMARY KEY (tkid,tmid),
    FOREIGN KEY (tkid) REFERENCES tiku(tkid),
    FOREIGN KEY (tmid) REFERENCES timu(tmid)
@@ -47,8 +47,8 @@ CREATE TABLE kc(
 /*创建kc_tiku 主键为kcid+tkid*/
 DROP TABLE IF EXISTS kc_tiku;
 CREATE TABLE kc_tiku(
-   kcid INT(11) DEFAULT NULL,
-   tkid INT(11) DEFAULT NULL,
+   kcid INT(11),
+   tkid INT(11),
    PRIMARY KEY (kcid,tkid),
    FOREIGN KEY (tkid) REFERENCES tiku(tkid),
    FOREIGN KEY (kcid) REFERENCES kc(kcid)
