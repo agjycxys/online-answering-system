@@ -1,41 +1,41 @@
 package domain;
 
 public class AllResult {
-	private int kcid;
-	private int tkid;
-	private String results;
-	private String openid;
-	
-	public String getOpenid() {
-		return openid;
-	}
+    private int kcid;
+    private int tkid;
+    private String results;
+    private String openid;
 
-	public void setOpenid(String openid) {
-		this.openid = openid;
-	}
+    public String getOpenid() {
+        return openid;
+    }
 
-	public int getKcid() {
-		return kcid;
-	}
+    public void setOpenid(String openid) {
+        this.openid = openid;
+    }
 
-	public void setKcid(int kcid) {
-		this.kcid = kcid;
-	}
+    public int getKcid() {
+        return kcid;
+    }
 
-	public int getTkid() {
-		return tkid;
-	}
+    public void setKcid(int kcid) {
+        this.kcid = kcid;
+    }
 
-	public void setTkid(int tkid) {
-		this.tkid = tkid;
-	}
+    public int getTkid() {
+        return tkid;
+    }
 
-	public String getResults() {
-		return results;
-	}
+    public void setTkid(int tkid) {
+        this.tkid = tkid;
+    }
 
-	public void setResults(String results) {
-		this.results = results;
-	}
+    public String getResults() {
+        return results;
+    }
+
+    public void setResults(String results) {
+        this.results = results;
+    }
 
 }
