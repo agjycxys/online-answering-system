@@ -14,7 +14,6 @@
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
-.idea/
 .iml
 target/
 
@@ -33,3 +32,7 @@ onlineAnsweringSystem-ssm.iml
 .idea/workspace.xml
 onlineAnsweringSystem/WeiXin.iml
 *.xml
+.idea/
+./.idea/
+.idea/dataSources.local.xml
+.idea/workspace.xml
