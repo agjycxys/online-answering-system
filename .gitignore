@@ -31,8 +31,5 @@ target/
 hs_err_pid*
 onlineAnsweringSystem-ssm.iml
 .idea/workspace.xml
-.idea/workspace.xml
 onlineAnsweringSystem/WeiXin.iml
 *.xml
-*.xml
-.idea/workspace.xml
